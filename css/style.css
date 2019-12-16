@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+body, h2, h1, p{
+    margin: 0;
+    padding: 0;  
+}
+
+p, h1, h2 {
+    font-family: 'Oxygen', sans-serif;
+    color: #ffffff ;
+}
+
+nav {
+    text-align: right;
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h2 {
+    font-size: 20;
+}
+
+#info, #gostos {
+    background-color: #020F59;
+}
+
+#header, #profissional, #contatos {
+    background-color: #0424D9;
+}
+
+header, #info, #profissional, #gostos{
+    padding: 10rem 0 10rem 0;
+    border-bottom: 0.4rem double white ;
+  }
+
+#contatos {
+    text-align: center;
+}
+
+.text {
+    padding-top: 40px;
+    padding-bottom: 40px ;
+}
+
+p {
+    padding-top: 10px;
+}
